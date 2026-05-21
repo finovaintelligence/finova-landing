@@ -1,4 +1,4 @@
-import logo from './assets/FINOVA-logo.png'
+import logo from './assets/FINOVA-Logo.png'
 import crecimiento from './assets/crecimiento.png'
 import rentabilidad from './assets/rentabilidad.png'
 import liquidez from './assets/liquidez-capital-trabajo.png'
