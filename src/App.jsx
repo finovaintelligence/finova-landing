@@ -23,9 +23,10 @@ export default function App() {
 <div className="flex flex-col">
 
   <img
-    src={logo}
-    className="h-46 w-auto object-contain"
-  />
+  src={logo}
+  alt="FINOVA"
+  className="w-80 md:w-[500px] lg:w-[620px]"
+/>
 
   <p className="text-slate-400 text-sm mt-2 ml-1">
     Plataforma de Inteligencia Financiera
