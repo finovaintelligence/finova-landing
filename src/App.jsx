@@ -241,6 +241,77 @@ export default function App() {
 
       </section>
 
+{/* FORMULARIO LEADS */}
+
+<section className="max-w-4xl mx-auto px-8 pb-32">
+
+  <div className="bg-slate-900 border border-slate-800 rounded-3xl p-12">
+
+    <h2 className="text-5xl font-bold mb-6 text-center">
+      Solicita una Demo
+    </h2>
+
+    <p className="text-slate-400 text-center mb-10 text-xl">
+      Descubre cómo automatizar estados financieros,
+      KPIs y forecast con IA.
+    </p>
+
+    <form
+      action="https://formspree.io/f/xovwabcd"
+      method="POST"
+      className="space-y-6"
+    >
+
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Nombre"
+        required
+        className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-6 py-4 text-white"
+      />
+
+      <input
+        type="text"
+        name="empresa"
+        placeholder="Empresa"
+        required
+        className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-6 py-4 text-white"
+      />
+
+      <input
+        type="email"
+        name="email"
+        placeholder="Correo corporativo"
+        required
+        className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-6 py-4 text-white"
+      />
+
+      <input
+        type="text"
+        name="whatsapp"
+        placeholder="WhatsApp"
+        className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-6 py-4 text-white"
+      />
+
+      <input
+        type="text"
+        name="erp"
+        placeholder="ERP actual (SAP, SIIGO, SIESA, Odoo...)"
+        className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-6 py-4 text-white"
+      />
+
+      <button
+        type="submit"
+        className="w-full bg-blue-600 hover:bg-blue-700 py-5 rounded-2xl text-xl font-bold"
+      >
+        Solicitar Demo
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
     </div>
 
   )
