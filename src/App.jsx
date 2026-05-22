@@ -75,7 +75,7 @@ export default function App() {
           SaaS • IA • Inteligencia Financiera
         </div>
 
-        <h1 className="text-7xl font-bold leading-tight max-w-5xl">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight max-w-5xl">
           Inteligencia Financiera Automatizada
         </h1>
 
