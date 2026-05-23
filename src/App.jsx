@@ -85,17 +85,21 @@ export default function App() {
           forecast, análisis y proyecciones impulsadas por IA.
         </p>
 
-        <div className="flex gap-5 mt-10">
+        <div className="flex flex-wrap gap-5 mt-10">
 
-          <button className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl text-lg font-semibold">
-            Solicitar Demo
-          </button>
+  <button className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl text-lg font-semibold">
+    Solicitar Demo
+  </button>
 
-          <button className="border border-slate-700 hover:bg-slate-900 px-8 py-4 rounded-2xl text-lg">
-            Ver Plataforma
-          </button>
+  <button className="border border-slate-700 hover:bg-slate-900 px-8 py-4 rounded-2xl text-lg">
+    Ver Plataforma
+  </button>
 
-        </div>
+  <button className="bg-red-600/80 hover:bg-red-700 px-8 py-4 rounded-2xl text-lg font-semibold">
+    Exportar PDF
+  </button>
+
+</div>
 
       </section>
 
